@@ -75,11 +75,11 @@ html{
 }
 .inicio .contenido-banner img{
     margin-top: 40px;
-    border: 10px solid #1CB698;
+    border: 3px solid #1CB698;
     display: block;
     width: 80%;
     margin: auto;
-    border-radius: 100%;
+    border-radius: 80%;
 }
 .inicio .contenido-banner h1{
     margin-top: 40px;
@@ -137,6 +137,8 @@ html{
 .sobremi .fila .col
 {
     width: 50%;
+    margin-left: 312px;
+    text-align: center;
 }
 .sobremi .fila .col h3{
     font-size: 28px;
@@ -165,7 +167,7 @@ html{
     flex-wrap: wrap;
 }
 .sobremi .fila .col .contenedor-intereses .interes{
-    width: 100px;
+    width: 140px;
     height: 100px;
     background-color: #252A2E;
     border-radius: 10px;
@@ -275,7 +277,7 @@ html{
 }
 @keyframes javascript {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 65%;}
 }
 
 .skills .skill .htmlcss{
@@ -287,29 +289,28 @@ html{
     100%{width: 89%;}
 }
 
-.skills .skill .photoshop{
+.skills .skill .reactjs{
     width: 0%;
-    animation: 2s photoshop forwards;
+    animation: 2s reactjs forwards;
 }
-@keyframes photoshop {
+@keyframes reactjs {
     0%{width: 0%;}
-    100%{width: 95%;}
+    100%{width: 55%;}
 }
 
-.skills .skill .wordpress{
+.skills .skill .python{
     width: 0%;
-    animation: 2s wordpress forwards;
+    animation: 2s python forwards;
 }
-@keyframes wordpress {
+@keyframes python {
     0%{width: 0%;}
-    100%{width: 81%;}
+    100%{width: 70%;}
 }
-
-.skills .skill .drupal{
+.skills .skill .mongodb{
     width: 0%;
-    animation: 2s drupal forwards;
+    animation: 2s mongodb forwards;
 }
-@keyframes drupal {
+@keyframes mongodb {
     0%{width: 0%;}
     100%{width: 55%;}
 }
@@ -329,7 +330,7 @@ html{
 }
 @keyframes trabajo {
     0%{width: 0%;}
-    100%{width: 70%;}
+    100%{width: 80%;}
 }
 
 .skills .skill .creatividad{
@@ -338,7 +339,7 @@ html{
 }
 @keyframes creatividad {
     0%{width: 0%;}
-    100%{width: 99%;}
+    100%{width: 70%;}
 }
 
 .skills .skill .dedicacion{
@@ -347,17 +348,9 @@ html{
 }
 @keyframes dedicacion {
     0%{width: 0%;}
-    100%{width: 65%;}
+    100%{width: 80%;}
 }
 
-.skills .skill .proyect{
-    width: 0%;
-    animation: 2s proyect forwards;
-}
-@keyframes proyect {
-    0%{width: 0%;}
-    100%{width: 94%;}
-}
 /* SECCION CURRICULUM */
 .curriculum{
     background-color: #1e2326;
